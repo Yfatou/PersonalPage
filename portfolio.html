@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About | Yaye Fatou</title>
 
-    <link rel="stylesheet" href="/Bootstrap-Portfolio/assets/css/style.css">
 
     <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- CSS file -->
+    <link rel="stylesheet" href="/PersonalPage/assets/css/style.css">
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -19,146 +21,195 @@
 <body>
 
 <div class="container">
-    <header>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info pb-0">
-            <div class="p-3 bg-info text-white">
-                <a class="navbar-brand" href="#">
-                    <h2 class="text-white">Yaye Fatou Thiam</h2>
+    <div class="navigationBar">
+        <ul class="nav flex-column pt-5 align-middle">
+            <li class="nav-item">
+                <a class="nav-link active text-secondary font-weight-bold" href="index.html">
+                    <div><i class="fas fa-home fa-fw" style="font-size: 2rem; color: gray"></i>Home</div>
                 </a>
-            </div>  -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-secondary font-weight-bold" href="about.html">
+                    <div><i class="fas fa-user fa-fw" style="font-size: 2rem; color: gray"></i>About</div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="portfolio.html">
+                    <div><i class="far fa-images fa-fw" style="font-size: 2rem; color: gray"></i>Portfolio</div>  
+                </a>
+            </li>
+        </ul>
+    </div>
 
-            <!--for the hamburger button-->
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+    <div class="sticky-top headWrap">
+        <img class="rounded-circle w-auto border" src ="assets/images/MypictureSmall.png" alt="my pic"/>
+        <h2 class="text-secondary font-weight-bold mb-3 pb-3 mt-3 border-bottom border-secondary">Portfolio</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-1 mt-5 border">
+            <div class="hovereffect">
+                <img class="img-responsive" src="/PersonalPage/assets/images/Hangman2.png" target="_blank">
+                <div class="overlay">
+                    <a href="/Word-Guess-Game/index.html" target="_blank">
+                        <h2>Hangman</h2>
+                    </a>
+                   <a class="info" href="https://github.com/Yfatou/Word-Guess-Game" target="_blank">
+                        <i class="fab fa-github fa-2x" style="color:gray"></i>
+                    </a>
                 </div>
-            </div>           -->
-        <!-- </nav> -->
-    </header>
-
-    <!-- <section> -->
-
-        <div class="navigationBar">
-            <ul class="nav flex-column pt-5 align-middle">
-                <li class="nav-item">
-                    <a class="nav-link active text-secondary font-weight-bold" href="index.html">
-                        <div><i class="fas fa-home fa-fw" style="font-size: 2rem; color: gray"></i>Home</div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-secondary font-weight-bold" href="index.html">
-                        <div><i class="fas fa-user fa-fw" style="font-size: 2rem; color: gray"></i>About</div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary font-weight-bold" href="portfolio.html">
-                        <div><i class="far fa-images fa-fw" style="font-size: 2rem; color: gray"></i>Portfolio</div>  
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary font-weight-bold" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5 portfolioPic">
-                <img class="picture w-25 p-1 mt-5 border" src ="assets/images/Mypicture.png" alt="my pic"/>
-            </div>
-            <div class="col-md-7">
-                <h2 class="text-secondary font-weight-bold mb-3 pb-3 mt-3 border-bottom border-secondary">Portfolio</h2>
             </div>
         </div>
-        <div class="row pb-3">
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/img1.jpeg" alt="Card image">
-                        <div class="card-img-overlay"> <!--adding the link to the Hangman game-->
-                            <a href="/Word-Guess-Game/index.html">
-                                <h6 class="card-title">Hangman</h6>
-                            </a>  
-                        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-1 mt-5 border">
+            <div class="hovereffect">
+                <img class="img-responsive" src="/PersonalPage/assets/images/Unit4-Game.png" target="_blank">
+                <div class="overlay">
+                    <a href="/unit-4-game/index.html" target="_blank">
+                        <h2>Unit4-Game</h2>
+                    </a>
+                    <a class="info" href="https://github.com/Yfatou/unit-4-game" target="_blank">
+                        <i class="fab fa-github fa-2x" style="color:gray"></i>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/img2.jpeg" alt="Card image">
-                        <div class="card-img-overlay"> <!--adding the link to the RPG game-->
-                            <a href="/unit-4-game/index.html">
-                                <h6 class="card-title">RPG Game</h6>
-                            </a>
-                        </div>
+        </div>   
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-1 mt-5 border">
+            <div class="hovereffect">
+                <img class="img-responsive" src="/PersonalPage/assets/images/TriviaGame.png" target="_blank">
+                <div class="overlay">
+                    <a href="/TriviaGame/index.html" target="_blank">
+                        <h2>Trivia Game</h2>
+                    </a>
+                    <a class="info" href="https://github.com/Yfatou/TriviaGame" target="_blank">
+                        <i class="fab fa-github fa-2x" style="color:gray"></i>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/gifTastic.png" alt="Card image">
-                        <div class="card-img-overlay"> <!--adding the link to gifTastic-->
-                            <a href="/GifTastic/index.html">
-                                <h6 class="card-title">GifTastic</h6>
-                            </a>
-                        </div>
+        </div>   
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-1 mt-5 border">
+            <div class="hovereffect">
+                <img class="img-responsive" src="/PersonalPage/assets/images/gifTastic.png" target="_blank">
+                <div class="overlay">
+                    <a href="/GifTastic/index.html" target="_blank">
+                        <h2>Trivia Game</h2>
+                    </a>
+                    <a class="info" href="https://github.com/Yfatou/GifTastic" target="_blank">
+                        <i class="fab fa-github fa-2x" style="color:gray"></i>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3">
-            
-            </div>
-        </div>
-
-        <div class="row pb-3">
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/img3.jpeg" alt="Card image">
-                        <div class="card-img-overlay"><!--adding the link to the Trivia game-->
-                            <a href="/TriviaGame/index.html">
-                                <h6 class="card-title">Trivia Game</h6>
-                            </a>
-                        </div>
+        </div>   
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-1 mt-5 border">
+            <div class="hovereffect">
+                <img class="img-responsive" src="/PersonalPage/assets/images/TrainScheduler.png" target="_blank">
+                <div class="overlay">
+                    <a href="/TrainScheduler/index.html" target="_blank">
+                        <h2>Trivia Game</h2>
+                    </a>
+                    <a class="info" href="https://github.com/Yfatou/TrainScheduler" target="_blank">
+                        <i class="fab fa-github fa-2x" style="color:gray"></i>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/TrainScheduler.png" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="/TrainScheduler/index.html">
-                                <h6 class="card-title">Train Scheduler</h6>
-                            </a>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-6">
+        </div>  
     
-            </div>
-        </div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card bg-dark text-white img1">
-                    <img class="card-img" src="/Bootstrap-Portfolio/assets/images/img5.jpeg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h6 class="card-title">Rock Paper Scissors</h6>
+    <!-- <div class="row">
+        <div class="col-md-4 contain">
+            <div class="thumbnail">
+                <a href="/Word-Guess-Game/index.html" target="_blank">
+                    <div class="project">
+                        <img src="/PersonalPage/assets/images/Hangman2.png" alt="Hangman" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text">Hangman</div>
+                            <a href="https://github.com/Yfatou/Word-Guess-Game" target="_blank">
+                                <i class="fab fa-github fa-2x" style="color:gray"></i>
+                            </a>
                         </div>
-                </div>
+                    </div>
+                </a>
             </div>
-        <div class="col-md-9">
         </div>
-                        
-    <!-- </section> -->
+        <div class="col-md-4 contain">
+                <div class="thumbnail">
+                    <a href="/unit-4-game/index.html" target="_blank">
+                        <div class="project">
+                            <img src="/PersonalPage/assets/images/Unit4-Game.png" alt="Unit4-Game" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="text">Unit4-Game</div>
+                                <a href="https://github.com/Yfatou/unit-4-game" target="_blank">
+                                    <i class="fab fa-github fa-2x" style="color:gray"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        <div class="col-md-4 contain">
+                <div class="thumbnail">
+                    <a href="/TriviaGame/index.html" target="_blank">
+                        <div class="project">
+                            <img src="/PersonalPage/assets/images/TriviaGame.png" alt="Unit4-Game" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="text">Trivia Game</div>
+                                <a href="https://github.com/Yfatou/TriviaGame" target="_blank">
+                                    <i class="fab fa-github fa-2x" style="color:gray"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 contain">
+                <div class="thumbnail">
+                    <a href="/GifTastic/index.html" target="_blank">
+                        <div class="project">
+                            <img src="/PersonalPage/assets/images/gifTastic.png" alt="Unit4-Game" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="text">GifTastic</div>
+                                <a href="https://github.com/Yfatou/GifTastic" target="_blank">
+                                    <i class="fab fa-github fa-2x" style="color:gray"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        <div class="col-md-4 contain">
+                <div class="thumbnail">
+                    <a href="/TrainScheduler/index.html" target="_blank">
+                        <div class="project">
+                            <img src="/PersonalPage/assets/images/TrainScheduler.png" alt="Unit4-Game" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="text">GifTastic</div>
+                                <a href="https://github.com/Yfatou/TrainScheduler" target="_blank">
+                                    <i class="fab fa-github fa-2x" style="color:gray"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+        -->
+        
+
+        
 </div>
-   
-    <footer>
 
-
-    </footer>
 
     
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
