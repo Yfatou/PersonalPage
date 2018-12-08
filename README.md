@@ -1,6 +1,7 @@
 # PersonalPage
 
 Welcome to my Personal Page!!
+Here the link to the deployed version: https://yfatou.github.io/PersonalPage/index.html
 
 On this page, you will find:
  - Informations about me and my contacts informations.
@@ -11,4 +12,7 @@ On this page, you will find:
 ##How did I build this page - Technonogies used - 
 
 I wanted this page to be clear and concise.
+I also wanted it to help me practice the tools that I learned/have beel learning.
+
+I used HTML/CSS on this page. I also used Bootstrap to make it mobile responsive.
 
