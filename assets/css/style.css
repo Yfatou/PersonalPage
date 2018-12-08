@@ -208,8 +208,14 @@ h2{
 .personalInfos{
     /* background-color: white; */
     border-color: gray;
-    border-style: ridge;
+    /* border-style: ridge; */
 }
 h3{
     color: purple;
+}
+.card{
+    max-height: 100%;
+}
+th{
+    color: blueviolet;
 }
