@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(228, 211, 176, 0.582));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
     background-size: cover; /*to have the image cover the background*/
 }
 
@@ -26,6 +26,9 @@ h6{
 .me{
     display: inline;
     vertical-align: middle;
+}
+.projectDef{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
 }
 #button{
     border-radius: 25%;
