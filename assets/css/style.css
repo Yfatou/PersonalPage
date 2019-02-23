@@ -22,10 +22,15 @@ h6{
 }
 .pic{
     display: flex;
+    flex-direction: column;
 }
 .me{
     display: inline;
     vertical-align: middle;
+}
+.links{
+    display: flex;
+    justify-content: center;
 }
 .projectDef{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
