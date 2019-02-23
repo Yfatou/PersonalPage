@@ -4,7 +4,7 @@ body {
     background-size: cover; /*to have the image cover the background*/
 }
 
-p{
+p, th, td{
     color: gray;
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +16,10 @@ ul{
 }
 h6{
     text-align: center;
+}
+.imge {
+    width: 100%;
+    height: auto;
 }
 .nav{
     float: right;
@@ -132,18 +136,29 @@ h3{
     color: purple;
 }
 th{
-    color: blueviolet;
-}
-.containAbout{
-    background-color: white;
+    color: darkviolet;
 }
 .aboutMe, .personalInfos{
     border-color: gray;
 }
 .aboutMe{
     border-style: ridge;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
+    background-size: cover; /*to have the image cover the background*/
 }
 .card{
     max-height: 75%;
 }
-
+.personalInfos{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
+    background-size: cover; /*to have the image cover the background*/
+}
+.containAbout{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 179, 125, 0.589));
+    background-size: cover; /*to have the image cover the background*/
+}
+.content{
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+}
